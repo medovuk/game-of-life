@@ -49,6 +49,13 @@
                         <format>html</format>
                     </formats>
                 </configuration>
+		<executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>cobertura</goal>
+                        </goals>
+                </execution>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
