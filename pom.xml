@@ -431,14 +431,14 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
-			<executions>
+			<!--<executions>
 		            	<execution>
 		                	<phase>package</phase>
 		                	<goals>
 		                   	 <goal>cobertura</goal>
 		                	</goals>
                     	</execution>
-			</executions>
+			</executions> -->
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
