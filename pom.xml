@@ -431,6 +431,7 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
+<!--
 			<executions>
 		            	<execution>
 		                	<phase>package</phase>
@@ -439,6 +440,7 @@
 		                	</goals>
                     	</execution>
 			</executions>
+-->
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
